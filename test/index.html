@@ -7,6 +7,21 @@
   <link href='https://cdn.rawgit.com/visionmedia/mocha/2.2.4/mocha.css' rel='stylesheet' />
 </head>
 <body>
+  <!--НАЧАЛО БЛОКА РАДИО ОНЛАЙН-->
+<style type="text/css">
+  #ro_h2 {border-radius: 0px 0px 0 0;}
+  #ro_block h2 { background: #800000; padding: 10px; margin: 0; line-height: 100%; text-align:center;}
+  #ro_block h2 a { background: #800000; color: #ffffff; font: normal bold 16px Arial, Verdana, Tahoma; text-decoration: none;}
+  #ro_block h2 a:hover { text-decoration: underline;}
+  #ro_img { background: #ffffff; border-radius: 0 0 0px 0px;}
+  </style>
+  <div id="ro_block" align="center">
+  <h2 id ="ro_h2"><a href="http://onlayn-radio.ru/" target="_blank">Онлайн радио</a></h2>
+  <div id="ro_player"></div><div id="ro_img"></div>
+  </div>
+  <script type="text/javascript" language="javascript">var orruMyRad = "13,5,8,26,31,129,145,324,339", orruBlockWidth = 240, orruImgKol = 3;</script>
+  <script src="http://onlayn-radio.ru/script/rad.js" type="text/javascript" defer="defer"></script>
+  <!--КОНЕЦ БЛОКА РАДИО ОНЛАЙН-->
   <div id='mocha'></div>
   <script src='https://cdn.rawgit.com/visionmedia/mocha/2.2.4/mocha.js'></script>
   <script src='https://cdn.rawgit.com/chaijs/chai/2.3.0/chai.js'></script>
